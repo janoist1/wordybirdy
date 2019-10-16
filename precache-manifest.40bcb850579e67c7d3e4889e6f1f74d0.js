@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb9988eefae64eb47adb040df9991360",
+    "revision": "99faa5e613203da17cf1398bb8be23b9",
     "url": "/wordybirdy/index.html"
   },
   {
-    "revision": "37fb728f661a06478272",
+    "revision": "1e79fde15e7ea7ee3281",
     "url": "/wordybirdy/static/css/main.88918f04.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wordybirdy/static/js/2.6a63b45e.chunk.js"
   },
   {
-    "revision": "37fb728f661a06478272",
-    "url": "/wordybirdy/static/js/main.a8c2677d.chunk.js"
+    "revision": "1e79fde15e7ea7ee3281",
+    "url": "/wordybirdy/static/js/main.33794c59.chunk.js"
   },
   {
     "revision": "488f79da9499b533ef1e",
