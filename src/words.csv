@@ -5,10 +5,9 @@ from the ground up,az alapoktól kezdve,,https://translate.google.com/#en/hu/fro
 along the way,az út mentén,,https://translate.google.com/#en/hu/along%20the%20way
 pampering,dédelgetés,,https://translate.google.com/#en/hu/pampering
 exploration,felfedezés,,https://translate.google.com/#en/hu/exploration
-evaluate,értékelje,,https://translate.google.com/#en/hu/evaluate
+evaluate,értékel,,https://translate.google.com/#en/hu/evaluate
 concise,tömör,,https://translate.google.com/#en/hu/concise
 to imply,utalni,,https://translate.google.com/#en/hu/to%20imply
-trie,trie,,https://translate.google.com/#en/hu/trie
 trade-off,kompromisszum,,https://translate.google.com/#en/hu/trade-off
 trade-off between security and convenience,kompromisszumot a biztonság és a kényelem,,https://translate.google.com/#en/hu/trade-off%20between%20security%20and%20convenience
 burden,teher,,https://translate.google.com/#en/hu/burden
@@ -16,7 +15,7 @@ abbreviation,rövidítés,,https://translate.google.com/#en/hu/abbreviation
 instinct,ösztön,,https://translate.google.com/#en/hu/instinct
 resign,lemond,,https://translate.google.com/#en/hu/resign
 convict point of view,fegyenc szempontból,,https://translate.google.com/#en/hu/convict%20point%20of%20view
-to hatch,kelnek,kinyit,https://translate.google.com/#en/hu/to%20hatch
+to hatch,kikel,kinyit,https://translate.google.com/#en/hu/to%20hatch
 compound,összetett,épületkomplexum,https://translate.google.com/#en/hu/compound
 discipline,fegyelem,,https://translate.google.com/#en/hu/discipline
 obtain,szerezni,,https://translate.google.com/#en/hu/obtain
@@ -60,7 +59,7 @@ regression,regresszió,visszafejlődés,https://translate.google.com/#en/hu/regr
 unwieldy,ormótlan,,https://translate.google.com/#en/hu/unwieldy
 overhaul,nagyjavítás,,https://translate.google.com/#en/hu/overhaul
 miscellaneous,vegyes,,https://translate.google.com/#en/hu/miscellaneous
-batch,tétel,"halom, csomó",https://translate.google.com/#en/hu/batch
+batch,"tétel, halom, csomó, köteg","halom, csomó",https://translate.google.com/#en/hu/batch
 comprehend,megért,felfog,https://translate.google.com/#en/hu/comprehend
 encompass,felölel,tartalmaz,https://translate.google.com/#en/hu/encompass
 boast,dicsekszik,,https://translate.google.com/#en/hu/boast
@@ -70,19 +69,19 @@ arbitrary,tetszőleges,önkényes,https://translate.google.com/#en/hu/arbitrary
 clash,összecsapás,,https://translate.google.com/#en/hu/clash
 intact,ép,sértetlen,https://translate.google.com/#en/hu/intact
 to outweigh,felülmúlják,túlsúlyba kerül,https://translate.google.com/#en/hu/to%20outweigh
-resemble,hasonlítanak,egybevág,https://translate.google.com/#en/hu/resemble
-only as applicable,csak alkalmazni,csak adott esetben,https://translate.google.com/#en/hu/only%20as%20applicable
+resemble,"hasonlít, egybevág",egybevág,https://translate.google.com/#en/hu/resemble
+only as applicable,csak adott esetben,csak adott esetben,https://translate.google.com/#en/hu/only%20as%20applicable
 syllable,szótag,,https://translate.google.com/#en/hu/syllable
 to strive,törekedni,,https://translate.google.com/#en/hu/to%20strive
-compelling,kényszerítő,,https://translate.google.com/#en/hu/compelling
+compelling,"kényszerítő, ellenállhatatlan, késztető",,https://translate.google.com/#en/hu/compelling
 meaningless,értelmetlen,,https://translate.google.com/#en/hu/meaningless
 notion,"elképzelés, szándék, fogalom",,https://translate.google.com/#en/hu/notion
 thus,és így,ennél fogva,https://translate.google.com/#en/hu/thus
-without undue latency,"anélkül, hogy indokolatlan várakozási idő",indokolatlan késleltetés nélkül,https://translate.google.com/#en/hu/without%20undue%20latency
+undue,"indokolatlan, jogtalan",,https://translate.google.com/#en/hu/undue
 whereby,miáltal,"minélfogva, amitől, miből",https://translate.google.com/#en/hu/whereby
 suppress,elnyom,,https://translate.google.com/#en/hu/suppress
 the front door is having work done on it,a bejárati ajtón munka van végezve,a bejárati ajtón munka van végezve,https://translate.google.com/#en/hu/the%20front%20door%20is%20having%20work%20done%20on%20it
-prone to mishaps,hajlamos balesetek,,https://translate.google.com/#en/hu/prone%20to%20mishaps
+prone to mishaps,hajlamos bajokra,,https://translate.google.com/#en/hu/prone%20to%20mishaps
 in due course,kellő időben,,https://translate.google.com/#en/hu/in%20due%20course
 course,tanfolyam,,https://translate.google.com/#en/hu/course
 fulfill,eleget tesz,teljesül,https://translate.google.com/#en/hu/fulfill
@@ -104,7 +103,7 @@ somewhat,némileg,,https://translate.google.com/#en/hu/somewhat
 jiggery-pokery,mesterkedés,,https://translate.google.com/#en/hu/jiggery-pokery
 deceitful,csaló,,https://translate.google.com/#en/hu/deceitful
 dishonest,tisztességtelen,,https://translate.google.com/#en/hu/dishonest
-disguised,rejtett,álruhába,https://translate.google.com/#en/hu/disguised
+disguised,"rejtett, álruhában",álruhába,https://translate.google.com/#en/hu/disguised
 pivot,tengely,"lényeg, sarkpont",https://translate.google.com/#en/hu/pivot
 manage,kezel,,https://translate.google.com/#en/hu/manage
 horrendous,borzasztó,,https://translate.google.com/#en/hu/horrendous
@@ -124,9 +123,9 @@ graceful,kecses,"elegáns, könnyed, bájos",https://translate.google.com/#en/hu
 dainty,kecses,finom,https://translate.google.com/#en/hu/dainty
 The intention here is to ...,"A cél itt az, hogy ...",,https://translate.google.com/#en/hu/The%20intention%20here%20is%20to%20...
 absence,távollét,hiány,https://translate.google.com/#en/hu/absence
-absence of something,hiányában valami,,https://translate.google.com/#en/hu/absence%20of%20something
+absence of something,"valami távollétében, hiányában",,https://translate.google.com/#en/hu/absence%20of%20something
 cognition,megismerés,,https://translate.google.com/#en/hu/cognition
-too big of a concern to ignore it,"túl nagy aggodalomra ad okot, hogy figyelmen kívül hagyja",,https://translate.google.com/#en/hu/too%20big%20of%20a%20concern%20to%20ignore%20it
+too big of a concern to ignore it,túlságosan kockázatos figyelmen kívül hagyni,,https://translate.google.com/#en/hu/too%20big%20of%20a%20concern%20to%20ignore%20it
 to align,igazítani,,https://translate.google.com/#en/hu/to%20align
 conspicuous,feltűnő,,https://translate.google.com/#en/hu/conspicuous
 inconspicuous,nem feltűnő,,https://translate.google.com/#en/hu/inconspicuous
@@ -173,7 +172,7 @@ strive,törekszünk,,https://translate.google.com/#en/hu/strive
 adequate,megfelelő,elégséges,https://translate.google.com/#en/hu/adequate
 completely missed the point of ,teljesen kimaradt a lényeg a,,https://translate.google.com/#en/hu/completely%20missed%20the%20point%20of%20
 as far as he's concerned,amennyire ő az érintett,,https://translate.google.com/#en/hu/as%20far%20as%20he's%20concerned
-neat,tiszta,,https://translate.google.com/#en/hu/neat
+neat,"tiszta, csinos, rendes",,https://translate.google.com/#en/hu/neat
 blunt,tompa,,https://translate.google.com/#en/hu/blunt
 quirks,hirtelen fordulat,,https://translate.google.com/#en/hu/quirks
 quirk,bemondás,,https://translate.google.com/#en/hu/quirk
@@ -183,7 +182,7 @@ pristine,"ősi, eredeti állapot",,https://translate.google.com/#en/hu/pristine
 beanstalk,babszár,,https://translate.google.com/#en/hu/beanstalk
 to be on the same page around it,hogy ugyanazon az oldalon körülötte,,https://translate.google.com/#en/hu/to%20be%20on%20the%20same%20page%20around%20it
 vague,homályos,,https://translate.google.com/#en/hu/vague
-precautionary,elővigyázatosság,,https://translate.google.com/#en/hu/precautionary
+precautionary,elővigyázatossági,,https://translate.google.com/#en/hu/precautionary
 measure,"intézkedés, mérték",,https://translate.google.com/#en/hu/measure
 sentient,érző,,https://translate.google.com/#en/hu/sentient
 hereby,ezennel,,https://translate.google.com/#en/hu/hereby
@@ -215,9 +214,9 @@ deed,tett,,https://translate.google.com/#en/hu/deed
 immense,óriási,,https://translate.google.com/#en/hu/immense
 immerse,"elmerül, elmerít",,https://translate.google.com/#en/hu/immerse
 skim up,lefölöz,,https://translate.google.com/#en/hu/skim%20up
-disparate,eltérő,,https://translate.google.com/#en/hu/disparate
+disparate,teljesen eltérő,,https://translate.google.com/#en/hu/disparate
 splendid,"pompás, ragyogó",,https://translate.google.com/#en/hu/splendid
-submission,benyújtás,,https://translate.google.com/#en/hu/submission
+submission,"behódolás, benyújtás",,https://translate.google.com/#en/hu/submission
 lieutenant,hadnagy,,https://translate.google.com/#en/hu/lieutenant
 lofty ideas,magasztos eszmék,,https://translate.google.com/#en/hu/lofty%20ideas
 herd,csorda,,https://translate.google.com/#en/hu/herd
@@ -253,8 +252,8 @@ candidate,jelölt,,https://translate.google.com/#en/hu/candidate
 whereas,mivel,"minthogy, habár, miután",https://translate.google.com/#en/hu/whereas
 to provision,a rendelkezés,,https://translate.google.com/#en/hu/to%20provision
 provisioning,tartalékolási,,https://translate.google.com/#en/hu/provisioning
-provision,fedezet,,https://translate.google.com/#en/hu/provision
-deviate,eltér,,https://translate.google.com/#en/hu/deviate
+provision,"fedezet, ellátás, tartalék",,https://translate.google.com/#en/hu/provision
+deviate,"eltér, letér",,https://translate.google.com/#en/hu/deviate
 augment,fokozza,nagyobbodik,https://translate.google.com/#en/hu/augment
 counterpart,hasonmás,,https://translate.google.com/#en/hu/counterpart
 handful,maréknyi,,https://translate.google.com/#en/hu/handful
@@ -310,7 +309,7 @@ advise,értesít,,https://translate.google.com/#en/hu/advise
 deliberately,szándékosan,,https://translate.google.com/#en/hu/deliberately
 I suggest,ajánlom,azt javaslom,https://translate.google.com/#en/hu/I%20suggest
 moisture,nedvesség,,https://translate.google.com/#en/hu/moisture
-cherish,dédelget,,https://translate.google.com/#en/hu/cherish
+cherish,"dédelget, kedvel",,https://translate.google.com/#en/hu/cherish
 ambient,környező,,https://translate.google.com/#en/hu/ambient
 at your expense,a te költségeden,,https://translate.google.com/#en/hu/at%20your%20expense
 kind of makes me wondering,kicsit elgondolkodtat,,https://translate.google.com/#en/hu/kind%20of%20makes%20me%20wondering
@@ -338,7 +337,7 @@ cerebral,"agyi-, agyhoz tartozó",,https://translate.google.com/#en/hu/cerebral
 on a regular basis,rendszeresen,,https://translate.google.com/#en/hu/on%20a%20regular%20basis
 examining,vizsgáló,,https://translate.google.com/#en/hu/examining
 unexamined,nem vizsgált,,https://translate.google.com/#en/hu/unexamined
-decisive,döntő,,https://translate.google.com/#en/hu/decisive
+decisive,döntő (tényező),,https://translate.google.com/#en/hu/decisive
 dread,retteg,,https://translate.google.com/#en/hu/dread
 exquisitely,tökéletesen,,https://translate.google.com/#en/hu/exquisitely
 dull,unalmas,,https://translate.google.com/#en/hu/dull
@@ -357,7 +356,7 @@ illegible,olvashatatlan,,https://translate.google.com/#en/hu/illegible
 emphasys,hangsúlyos,,https://translate.google.com/#en/hu/emphasys
 emphasize,hangsúlyt helyez,,https://translate.google.com/#en/hu/emphasize
 take the heat,elviseli a bírálatot,,https://translate.google.com/#en/hu/take%20the%20heat
-implicated,játszik,belekeveredik,https://translate.google.com/#en/hu/implicated
+implicate,"belevon, belekever (bajba)",belekeveredik,https://translate.google.com/#en/hu/implicate
 uneasy,"kényelmentlen, aggódó",,https://translate.google.com/#en/hu/uneasy
 conventional,hagyományos,,https://translate.google.com/#en/hu/conventional
 inundate,elönt,,https://translate.google.com/#en/hu/inundate
@@ -373,7 +372,7 @@ obscure,homályos,,https://translate.google.com/#en/hu/obscure
 instinct,ösztön,,https://translate.google.com/#en/hu/instinct
 atrocious,kegyetlen,,https://translate.google.com/#en/hu/atrocious
 horrendous,borzasztó,,https://translate.google.com/#en/hu/horrendous
-devote,szán,,https://translate.google.com/#en/hu/devote
+devote,"szán, szentel vmit vmire, dedikál",,https://translate.google.com/#en/hu/devote
 bias,"elfogult, torzít",,https://translate.google.com/#en/hu/bias
 eager,"mohó, buzgó",,https://translate.google.com/#en/hu/eager
 grope,tapogatózva keres,,https://translate.google.com/#en/hu/grope
@@ -432,19 +431,19 @@ uncanny,rejtélyes,,https://translate.google.com/#en/hu/uncanny
 speaking of which,Ha már itt tartunk,,https://translate.google.com/#en/hu/speaking%20of%20which
 sprawl,szétterpeszt,open wide,https://translate.google.com/#en/hu/sprawl
 imminent,"fenyegető, küszöbön álló",köszöbön álló,https://translate.google.com/#en/hu/imminent
-shady,árnyas,nem tiszta,https://translate.google.com/#en/hu/shady
-eventually short term gains will catch up to long term consequences,végül a rövid távú nyereség lesz felzárkózni a hosszú távú következményei,,https://translate.google.com/#en/hu/eventually%20short%20term%20gains%20will%20catch%20up%20to%20long%20term%20consequences
+shady,"árnyas, nem tiszta",nem tiszta,https://translate.google.com/#en/hu/shady
+short term gains will catch up to long term consequences,rövid távú nyereségnek meglesznek a hosszú távú következményei,,https://translate.google.com/#en/hu/short%20term%20gains%20will%20catch%20up%20to%20long%20term%20consequences
 allegedly,állítólag,,https://translate.google.com/#en/hu/allegedly
 appealing,tetszetős,,https://translate.google.com/#en/hu/appealing
 eccentricity,különcség,,https://translate.google.com/#en/hu/eccentricity
 espionage,kémkedés,,https://translate.google.com/#en/hu/espionage
 infiltrate,beszivárog,,https://translate.google.com/#en/hu/infiltrate
 eager,mohó,,https://translate.google.com/#en/hu/eager
-facilitate,megkönnyítése,,https://translate.google.com/#en/hu/facilitate
+facilitate,"elősegít, megkönnyít",,https://translate.google.com/#en/hu/facilitate
 spun off,leválasztotta,,https://translate.google.com/#en/hu/spun%20off
 spun,fonott,,https://translate.google.com/#en/hu/spun
 debris,törmelék,,https://translate.google.com/#en/hu/debris
-orchestrate,hangszerel,"arrange or direct the elements of (a situation) to produce a desired effect, especially surreptitiously",https://translate.google.com/#en/hu/orchestrate
+orchestrate,"hangszerel, organizál","arrange or direct the elements of (a situation) to produce a desired effect, especially surreptitiously",https://translate.google.com/#en/hu/orchestrate
 surreptitiously,titokban,,https://translate.google.com/#en/hu/surreptitiously
 of which,amelyből,,https://translate.google.com/#en/hu/of%20which
 establish,létrehozni,,https://translate.google.com/#en/hu/establish
@@ -454,11 +453,11 @@ bleach,fehérítő,,https://translate.google.com/#en/hu/bleach
 pledge,fogadalom,"zálog, ígéret",https://translate.google.com/#en/hu/pledge
 purposefully,céltudatosan,,https://translate.google.com/#en/hu/purposefully
 inhibit,gátolják,,https://translate.google.com/#en/hu/inhibit
-inflict,okoz,,https://translate.google.com/#en/hu/inflict
+inflict,"okoz, bosszant",,https://translate.google.com/#en/hu/inflict
 interrogator,vallató,,https://translate.google.com/#en/hu/interrogator
 backlash,holtjáték,,https://translate.google.com/#en/hu/backlash
 accountable,felelős,,https://translate.google.com/#en/hu/accountable
-allegation,állítás,,https://translate.google.com/#en/hu/allegation
+allegation,"állítás, vád",,https://translate.google.com/#en/hu/allegation
 consequently,következésképpen,,https://translate.google.com/#en/hu/consequently
 it will backfire on them,ez visszaüthet rájuk,,https://translate.google.com/#en/hu/it%20will%20backfire%20on%20them
 moral compass,erkölcsi iránytű,,https://translate.google.com/#en/hu/moral%20compass
@@ -504,7 +503,7 @@ antagonist,"ellenfél, ellenség, ellenlábas",a person who actively opposes or 
 discrepancy,eltérés,,https://translate.google.com/#en/hu/discrepancy
 restraining,visszatartó,,https://translate.google.com/#en/hu/restraining
 restraining order,távoltartás,,https://translate.google.com/#en/hu/restraining%20order
-allegiance,hűség,,https://translate.google.com/#en/hu/allegiance
+allegiance,"hűség, állampolgári kötelezettség",,https://translate.google.com/#en/hu/allegiance
 understated,"alulértékelt, degradál?","describe or represent (something) as being smaller, worse, or less important than it actually is",https://translate.google.com/#en/hu/understated
 revamp,átalakít,,https://translate.google.com/#en/hu/revamp
 thrive,gyarapszik,,https://translate.google.com/#en/hu/thrive
@@ -513,9 +512,9 @@ pleaded,könyörgött,,https://translate.google.com/#en/hu/pleaded
 plead,hivatkozhat,,https://translate.google.com/#en/hu/plead
 the end justifies the means,a cél szentesíti az eszközt,,https://translate.google.com/#en/hu/the%20end%20justifies%20the%20means
 decrepit,elaggott,kiöregedett,https://translate.google.com/#en/hu/decrepit
-snub,pisze,elhallgattat,https://translate.google.com/#en/hu/snub
-"win-win, but he might get most of the wins","win-win, de lehet, hogy a legtöbb győzelem",,https://translate.google.com/#en/hu/win-win%2C%20but%20he%20might%20get%20most%20of%20the%20wins
-someone has a shady history of something,valaki egy árnyékos története valami,,https://translate.google.com/#en/hu/someone%20has%20a%20shady%20history%20of%20something
+snub,"pisze, elhallgattat, letorkol",elhallgattat,https://translate.google.com/#en/hu/snub
+"win-win, but he might get most of the wins","win-win, de neki jut a több win",,https://translate.google.com/#en/hu/win-win%2C%20but%20he%20might%20get%20most%20of%20the%20wins
+someone has a shady history of something,valamivel kapcsolatban sötét múlttal rendelkezik,,https://translate.google.com/#en/hu/someone%20has%20a%20shady%20history%20of%20something
 affluence,bőség,,https://translate.google.com/#en/hu/affluence
 to get a better idea of something,hogy valamit jobban megértsen,,https://translate.google.com/#en/hu/to%20get%20a%20better%20idea%20of%20something
 hide and bide,"elrejteni, és kivárja",,https://translate.google.com/#en/hu/hide%20and%20bide
@@ -570,7 +569,7 @@ intrigue,cselszövés,,https://translate.google.com/#en/hu/intrigue
 congruency,egyezőségét,,https://translate.google.com/#en/hu/congruency
 vanity,hiúság,,https://translate.google.com/#en/hu/vanity
 crux,nehézség,,https://translate.google.com/#en/hu/crux
-captivated,meghódította,,https://translate.google.com/#en/hu/captivated
+captivate,"meghódít, elbájol, rabul ejt",,https://translate.google.com/#en/hu/captivate
 captive,fogoly,,https://translate.google.com/#en/hu/captive
 anticipation,előérzet,,https://translate.google.com/#en/hu/anticipation
 upscale,előkelő,,https://translate.google.com/#en/hu/upscale
@@ -589,7 +588,7 @@ harmless,ártalmatlan,,https://translate.google.com/#en/hu/harmless
 inevitably,elkerülhetetlenül,,https://translate.google.com/#en/hu/inevitably
 redemption,megváltás,,https://translate.google.com/#en/hu/redemption
 spade,ásó,,https://translate.google.com/#en/hu/spade
-severe,szigorú,,https://translate.google.com/#en/hu/severe
+severe,"szigorú, erős",,https://translate.google.com/#en/hu/severe
 contentious,vitás,,https://translate.google.com/#en/hu/contentious
 nod,bólint,,https://translate.google.com/#en/hu/nod
 discredits,lejáratja,,https://translate.google.com/#en/hu/discredits
@@ -632,3 +631,85 @@ superficial,felszínes,,https://translate.google.com/#en/hu/superficial
 cursory,felületes,,https://translate.google.com/#en/hu/cursory
 perfunctory,felületes,,https://translate.google.com/#en/hu/perfunctory
 brief,"rövid, rövid kivonat, rövid tájékoztató",,https://translate.google.com/#en/hu/brief
+laborious,fáradságos,,https://translate.google.com/#en/hu/laborious
+painstaking,fáradhatatlan,,https://translate.google.com/#en/hu/painstaking
+coherent,összefüggő,,https://translate.google.com/#en/hu/coherent
+diverge,"eltér, elágazik",,https://translate.google.com/#en/hu/diverge
+prone,"elterült, lejtő, meredek",,https://translate.google.com/#en/hu/prone
+prone to,hajlamos,,https://translate.google.com/#en/hu/prone%20to
+resilient,rugalmas,,https://translate.google.com/#en/hu/resilient
+I was prepossessed by his manners,megnyerőnek találtam a modorát,,https://translate.google.com/#en/hu/I%20was%20prepossessed%20by%20his%20manners
+like one possessed,mint egy megszállott,,https://translate.google.com/#en/hu/like%20one%20possessed
+prepossessed,befolyásol,,https://translate.google.com/#en/hu/prepossessed
+he is obsessed with something,megszállotja vminek,,https://translate.google.com/#en/hu/he%20is%20obsessed%20with%20something
+spill,"bukás, esés, kiönt",,https://translate.google.com/#en/hu/spill
+ambigous,"kétértelmű, zavaros",,https://translate.google.com/#en/hu/ambigous
+carve off,lefarag,,https://translate.google.com/#en/hu/carve%20off
+untangle,kibogoz,,https://translate.google.com/#en/hu/untangle
+grunt,röfög,,https://translate.google.com/#en/hu/grunt
+loom,"szövőszék, dereng",,https://translate.google.com/#en/hu/loom
+fertility,termékenység,,https://translate.google.com/#en/hu/fertility
+fertile,termékeny,,https://translate.google.com/#en/hu/fertile
+shrivel,összeaszalódik,,https://translate.google.com/#en/hu/shrivel
+I did a great deal of work on this project.,Rengeteget dolgoztam ezen a projekten.,,https://translate.google.com/#en/hu/I%20did%20a%20great%20deal%20of%20work%20on%20this%20project.
+A large number of people got involved.,Sok ember belekeveredett.,,https://translate.google.com/#en/hu/A%20large%20number%20of%20people%20got%20involved.
+Finding a good place took a large amount of time.,Sok időt vett igénybe egy jó helyet találni.,,https://translate.google.com/#en/hu/Finding%20a%20good%20place%20took%20a%20large%20amount%20of%20time.
+I ate loads of doughnuts.,Rengeteg fánkot ettem.,,https://translate.google.com/#en/hu/I%20ate%20loads%20of%20doughnuts.
+I spend loads of money on something.,Töltök rengeteg pénzt valamire.,,https://translate.google.com/#en/hu/I%20spend%20loads%20of%20money%20on%20something.
+understatement,kifejezés,,https://translate.google.com/#en/hu/understatement
+fairly,meglehetősen,,https://translate.google.com/#en/hu/fairly
+I'm rather tired.,Nagyon fáradt vagyok.,,https://translate.google.com/#en/hu/I'm%20rather%20tired.
+I'm quite surprised.,Én nagyon meglepődtem.,,https://translate.google.com/#en/hu/I'm%20quite%20surprised.
+dignify,megtisztel,,https://translate.google.com/#en/hu/dignify
+There are two of us.,Ketten vagyunk.,,https://translate.google.com/#en/hu/There%20are%20two%20of%20us.
+I can tell the difference between A and B.,Meg tudom mondani a különbséged A és B között.,,https://translate.google.com/#en/hu/I%20can%20tell%20the%20difference%20between%20A%20and%20B.
+affirmative,igenlő,,https://translate.google.com/#en/hu/affirmative
+adjective,melléknév,,https://translate.google.com/#en/hu/adjective
+noun,főnév,,https://translate.google.com/#en/hu/noun
+prior,előzetes,,https://translate.google.com/#en/hu/prior
+"It is very cold outside, nice day though.","Nagyon hideg van kint, bár szép nap.",,https://translate.google.com/#en/hu/It%20is%20very%20cold%20outside%2C%20nice%20day%20though.
+contradict,"ellentmond, megcáfol",,https://translate.google.com/#en/hu/contradict
+goodish,goodish,,https://translate.google.com/#en/hu/goodish
+I'm afraid I don't have the time.,"Attól tartok / Sajnálom, nem érek rá.",,https://translate.google.com/#en/hu/I'm%20afraid%20I%20don't%20have%20the%20time.
+notch,"bemetszés, rovátka, csorba",,https://translate.google.com/#en/hu/notch
+top-notch,kiváló,,https://translate.google.com/#en/hu/top-notch
+Come to visit me whenever you want.,"Látogass el hozzám, amikor csak akarsz.",,https://translate.google.com/#en/hu/Come%20to%20visit%20me%20whenever%20you%20want.
+That was the best doughnut I have ever eaten.,"Ez volt a legjobb fánk, amit valaha ettem.",,https://translate.google.com/#en/hu/That%20was%20the%20best%20doughnut%20I%20have%20ever%20eaten.
+These will be the most important four weeks of my life.,Ez lesz életem legfontosabb 4 hete.,,https://translate.google.com/#en/hu/These%20will%20be%20the%20most%20important%20four%20weeks%20of%20my%20life.
+Those were the most important four weeks of my life.,Ez volt életem legfontosabb 4 hete.,,https://translate.google.com/#en/hu/Those%20were%20the%20most%20important%20four%20weeks%20of%20my%20life.
+There are such clever children.,Olyan okos gyerekek vannak.,,https://translate.google.com/#en/hu/There%20are%20such%20clever%20children.
+stay mellow,viszlát / minden jót / ???,,https://translate.google.com/#en/hu/stay%20mellow
+mellow,"érett, dús, telt, lehiggadt",,https://translate.google.com/#en/hu/mellow
+idiom,idióma,,https://translate.google.com/#en/hu/idiom
+"Not exactly, things are still up in the air.","Nem egészen, a dolgok még mindig a levegőben lógnak.",,https://translate.google.com/#en/hu/Not%20exactly%2C%20things%20are%20still%20up%20in%20the%20air.
+lose one’s touch,elveszti a báját/varázsát,,https://translate.google.com/#en/hu/lose%20one%E2%80%99s%20touch
+pitch in,beszáll/belead,,https://translate.google.com/#en/hu/pitch%20in
+rule of thumb,íratlan szabály,,https://translate.google.com/#en/hu/rule%20of%20thumb
+Keep your chin up!,Fel a fejjel!,,https://translate.google.com/#en/hu/Keep%20your%20chin%20up!
+relentless,hajthatatlan,,https://translate.google.com/#en/hu/relentless
+unceasingly,szüntelenül,,https://translate.google.com/#en/hu/unceasingly
+it's not dead but it's on life support,nem halott de majdnem,,https://translate.google.com/#en/hu/it's%20not%20dead%20but%20it's%20on%20life%20support
+vicinity,környék,,https://translate.google.com/#en/hu/vicinity
+rigid,merev,,https://translate.google.com/#en/hu/rigid
+there is a fair bit of room for improvement,van bőven hely a fejlesztésre,,https://translate.google.com/#en/hu/there%20is%20a%20fair%20bit%20of%20room%20for%20improvement
+carcass,hulla,,https://translate.google.com/#en/hu/carcass
+defy,"dacol, visszautasít",,https://translate.google.com/#en/hu/defy
+delicate,"finom, gyengéd, törékeny",,https://translate.google.com/#en/hu/delicate
+phenomenal,"nagyon jó, rendkívüli",,https://translate.google.com/#en/hu/phenomenal
+accustomed,"szokásos, mindennapi",,https://translate.google.com/#en/hu/accustomed
+A class is a description of the object to be created.,Az osztály a létrehozandó objektum leírója.,,https://translate.google.com/#en/hu/A%20class%20is%20a%20description%20of%20the%20object%20to%20be%20created.
+taxonomy,"osztályozás, rendszertan",,https://translate.google.com/#en/hu/taxonomy
+A prototype is a working object instance.,A prototípus az egy működő/létező objektum példány.,,https://translate.google.com/#en/hu/A%20prototype%20is%20a%20working%20object%20instance.
+Inflexible ,rugalmatlan,,https://translate.google.com/#en/hu/Inflexible%20
+flaw,"hiba, rés, tévedés",,https://translate.google.com/#en/hu/flaw
+overcome,"leküzd, felülkerekedik",,https://translate.google.com/#en/hu/overcome
+fiercely,hevesen,,https://translate.google.com/#en/hu/fiercely
+fierce,"vad, erőszakos",,https://translate.google.com/#en/hu/fierce
+potentional flaws,lehetséges hibák,,https://translate.google.com/#en/hu/potentional%20flaws
+vast,"hatalmas, mérhetetlen",,https://translate.google.com/#en/hu/vast
+institutional,szervezeti,,https://translate.google.com/#en/hu/institutional
+hypocrite,álszent,,https://translate.google.com/#en/hu/hypocrite
+pharisee,képmutató,,https://translate.google.com/#en/hu/pharisee
+frayed,"kopott, horzsolt, vásott",,https://translate.google.com/#en/hu/frayed
+to be blunt,,,https://translate.google.com/#en/hu/to%20be%20blunt
+insulation,szigetelés,,https://translate.google.com/#en/hu/insulation
