@@ -1,53 +1,69 @@
-import React, { useState } from 'react'
-import randomInt from '../../utils/randomInt'
+import React, { useState, useEffect } from 'react'
 import Dictionary from '../Dictionary'
 
-Object.filter = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(predicate))
+const getIds = words => words.map(({ _id }) => _id)
 
-const ChallengeMode = ({ words, progress, onIKnow, onIDontKnow }) => {
-  const level = Object.keys(progress).reduce((min, key) => Math.min(min, progress[key]), Number.MAX_SAFE_INTEGER)
-  const numbersAvailable = Object.keys(Object.filter(progress, ([_, score]) => score <= level))
-
-  const getNextNumber = () => {
-    return numbersAvailable[randomInt(0, numbersAvailable.length - 1)]
-  }
+const ChallengeMode = ({ lang, words, onIKnow, onIDontKnow }) => {
+  const [idsLeft, setIdsLeft] = useState([])
+  const [pointer, setPointer] = useState(0)
+  const [miss, setMiss] = useState(0)
+  const [visible, setVisible] = useState(false)
 
   const handleIKnow = () => {
-    onIKnow(number)
+    const currentId = idsLeft[pointer]
+
+    setPointer(idsLeft.length >= pointer ? 0 : pointer)
+    setIdsLeft(idsLeft.filter(id => id !== currentId))
     handleNext()
+    onIKnow(currentId)
   }
 
   const handleIDontKnow = () => {
-    onIDontKnow(number)
     setMiss(miss + 1)
+    setPointer(pointer + 1 < idsLeft.length ? pointer + 1 : 0)
     handleNext()
+    onIDontKnow(idsLeft[pointer])
   }
 
   const handleNext = () => {
     setVisible(false)
-    setNumber(getNextNumber())
   }
 
   const handleShow = async () => {
     setVisible(true)
   }
 
-  const [visible, setVisible] = useState(false)
-  const [number, setNumber] = useState(getNextNumber())
-  const [miss, setMiss] = useState(0)
-  const word = words[number]
+  useEffect(() => {
+    if (idsLeft.length > 0) {
+      return
+    }
+
+    const ids = getIds(words)
+
+    setIdsLeft(ids)
+  }, [])
+
+  if (!idsLeft.length) {
+    return (
+      <div className="main">
+        Challenge over!
+      </div>
+    )
+  }
+
+  const word = words.find(({ _id }) => _id === idsLeft[pointer])
 
   return (
     <div className="main">
-      <div className='status'>miss: {miss}, words left: {numbersAvailable.length}</div>
+      <div className='status'>miss: {miss}, words left: {idsLeft.length}</div>
 
       <div className='words'>
-        <span>{word.Magyar}</span>
+        <span>{word.hu}</span>
 
         {visible && <>
           -
-            <a target="_blank" href={`https://translate.google.com/?source=osdd#auto|auto|${word.Angol}`}>
-            {word.Angol}
+            <a target="_blank" href={`https://translate.google.com/?source=osdd#auto|auto|${word.en}`}>
+            {word.en}
           </a>
         </>}
       </div>

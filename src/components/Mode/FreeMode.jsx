@@ -1,53 +1,97 @@
-import React, { useState } from 'react'
-import randomInt from '../../utils/randomInt'
+import React, { useState, useEffect } from 'react'
+import shuffle from '../../utils/shuffle'
 import Dictionary from '../Dictionary'
+import Giphy from '../Giphy'
 
-Object.filter = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(predicate))
+const getIdsShuffeled = words => {
+  const ids = words.map(({ _id }) => _id)
 
+  shuffle(ids)
 
-const FreeMode = ({ words, progress, onIKnow, onIDontKnow }) => {
+  return ids
+}
 
-  const level = Object.keys(progress).reduce((min, key) => Math.min(min, progress[key]), Number.MAX_SAFE_INTEGER)
-  const numbersAvailable = Object.keys(Object.filter(progress, ([_, score]) => score <= level))
+const calculateLevel = ({ words, lang }) =>
+  words.reduce((level, { progress: { [lang]: progress } }) => Math.min(level, progress), Number.MAX_SAFE_INTEGER)
 
-  const getNextNumber = () => {
-    return numbersAvailable[randomInt(0, numbersAvailable.length - 1)]
-  }
+const FreeMode = ({ lang, words, onIKnow, onIDontKnow }) => {
+  const [level, setLevel] = useState(calculateLevel({ lang, words }))
+  const [idsLeft, setIdsLeft] = useState([])
+  const [pointer, setPointer] = useState(0)
+  const [visible, setVisible] = useState(false)
+  const [dictionary, setDictionary] = useState(false)
+  const [giphy, setGiphy] = useState(false)
 
   const handleIKnow = () => {
-    onIKnow(number)
+    const currentId = idsLeft[pointer]
+
+    setPointer(idsLeft.length >= pointer ? 0 : pointer)
+    setIdsLeft(idsLeft.filter(id => id !== currentId))
     handleNext()
+    onIKnow(currentId)
   }
 
   const handleIDontKnow = () => {
-    onIDontKnow(number)
+    const currentId = idsLeft[pointer]
+
+    setPointer(pointer + 1 < idsLeft.length ? pointer + 1 : 0)
+    setIdsLeft([
+      ...idsLeft.filter(id => id !== currentId),
+      currentId,
+    ])
     handleNext()
+    onIDontKnow(idsLeft[pointer])
   }
 
   const handleNext = () => {
     setVisible(false)
-    setNumber(getNextNumber())
+    setDictionary(false)
+    setGiphy(false)
   }
 
-  const handleShow = async () => {
+  const handleShow = () => {
     setVisible(true)
   }
 
-  const [visible, setVisible] = useState(false)
-  const [number, setNumber] = useState(getNextNumber())
-  const word = words[number]
+  const handleShowDictionary = () => {
+    setDictionary(true)
+  }
+
+  const handleShowGiphy = () => {
+    setGiphy(true)
+  }
+
+  useEffect(() => {
+    setLevel(calculateLevel({ lang, words }))
+  }, [words])
+
+  useEffect(() => {
+    if (idsLeft.length > 0) {
+      return
+    }
+
+    const ids = getIdsShuffeled(words.filter(({ progress: { [lang]: progress } }) => progress <= level))
+
+    setIdsLeft(ids)
+  }, [level])
+
+  if (!idsLeft.length) {
+    return null
+  }
+
+  const word = words.find(({ _id }) => _id === idsLeft[pointer])
 
   return (
     <div className="main">
-      <div className='status'>level: {level}, words left: {numbersAvailable.length}</div>
+      <div className='status'>level: {level + 1}, words left: {idsLeft.length}</div>
 
       <div className='words'>
-        <span>{word.Magyar}</span>
+        <span>{word.hu}</span>
 
         {visible && <>
           -
-            <a target="_blank" href={`https://translate.google.com/?source=osdd#auto|auto|${word.Angol}`}>
-            {word.Angol}
+            <a target="_blank" href={`https://translate.google.com/?source=osdd#auto|auto|${word.en}`}>
+            {word.en}
           </a>
         </>}
       </div>
@@ -58,7 +102,14 @@ const FreeMode = ({ words, progress, onIKnow, onIDontKnow }) => {
         {!visible && <button onClick={handleShow}>show</button>}
       </div>
 
-      {visible && <Dictionary word={word} />}
+      <div className='buttons'>
+        <button onClick={handleShowGiphy}>show giphy</button>
+        <button onClick={handleShowDictionary}>show dictionary</button>
+      </div>
+
+      {giphy && <Giphy word={word} />}
+
+      {dictionary && <Dictionary word={word} />}
     </div>
   )
 }

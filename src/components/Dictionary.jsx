@@ -7,13 +7,13 @@ if (!ls('dictionary')) {
   ls('dictionary', {})
 }
 
-const loadDictionary = async word => {
-  let { [word.Angol]: dictionary } = ls('dictionary')
+const loadDictionary = async ({ en }) => {
+  let { [en]: dictionary } = ls('dictionary')
 
   if (!dictionary || +dictionary.result_code !== 200) {
     try {
       const dictionaries = ['association', 'example']
-      const tasks = dictionaries.map(dictionary => fetchWord(word.Angol, dictionary))
+      const tasks = dictionaries.map(dictionary => fetchWord(en, dictionary))
       const results = await Promise.all(tasks)
 
       dictionary = results.reduce((dictionary, result) => ({
@@ -23,7 +23,7 @@ const loadDictionary = async word => {
 
       ls('dictionary', {
         ...ls('dictionary'),
-        [word.Angol]: dictionary,
+        [en]: dictionary,
       })
     } catch (err) {
       console.log('Error loading dictionary:', err)
@@ -37,11 +37,18 @@ const Dictionary = ({ word, appContext }) => {
   const [dictionary, setDictionary] = useState()
 
   useEffect(() => {
+    let subscribed = true
+
     appContext.setLoading(true)
+
     loadDictionary(word).then(dictionary => {
-      setDictionary(dictionary)
       appContext.setLoading(false)
+      subscribed && setDictionary(dictionary)
     })
+
+    return () => {
+      subscribed = false
+    }
   }, [word])
 
   if (!dictionary) {
