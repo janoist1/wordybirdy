@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/wordybirdy/precache-manifest.f50656d0daf11bd4556fe1e69fdef1c5.js"
+  "/wordybirdy/precache-manifest.11c58805218517f2408ef39e541c0960.js"
 );
 
 self.addEventListener('message', (event) => {
